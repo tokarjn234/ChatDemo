@@ -214,7 +214,6 @@ EOD;
     }
 
     public function closeChat() {
-
         unset($_SESSION['openChatBoxes'][$_POST['chatbox']]);
         
         echo "1";
