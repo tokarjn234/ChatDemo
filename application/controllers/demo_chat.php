@@ -214,7 +214,7 @@ EOD;
     }
 
     public function closeChat() {
-
+        print_r('hoctiengnhat');
         unset($_SESSION['openChatBoxes'][$_POST['chatbox']]);
         
         echo "1";
