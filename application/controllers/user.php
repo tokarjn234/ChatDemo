@@ -36,6 +36,7 @@ class User extends CI_Controller {
 	}
 
 }
+//vi yeu em
 
 /* End of file user.php */
 /* Location: ./application/controllers/user.php */

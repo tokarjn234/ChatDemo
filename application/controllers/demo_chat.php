@@ -222,6 +222,7 @@ EOD;
 
     // Filter chuỗi
     public function sanitize($text) {
+        print_r('hoctiengnhathoctiengnhathoctiengnhat');
         $text = htmlspecialchars($text, ENT_QUOTES);
         $text = str_replace("\n\r","\n",$text);
         $text = str_replace("\r\n","\n",$text);
