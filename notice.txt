@@ -1,0 +1,1 @@
+﻿trong file config: $config['sess_encrypt_cookie'] = TRUE;
